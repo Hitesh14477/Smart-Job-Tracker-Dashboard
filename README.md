@@ -1,17 +1,60 @@
-# React + Vite
+# Smart Job Tracker Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A production-style React application designed to help job seekers efficiently manage and track their job applications across multiple platforms like LinkedIn, company career pages, referrals, and job boards.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Managing dozens of job applications manually using spreadsheets or notes can be inefficient and messy. This project solves that problem by providing a centralized dashboard where users can organize applications, monitor interview progress, track offers, and visualize job search analytics.
 
-## React Compiler
+The application simulates a real SaaS productivity tool with modern UI, structured workflows, and analytics-driven insights.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Key Features
 
-## Expanding the ESLint configuration
+- Add, edit, and delete job applications
+- Track applications by status (Applied, Interviewing, Rejected, Offer)
+- Search applications dynamically with debounced search
+- Filter by status, platform, and location type
+- Sort by applied date, salary, and company name
+- Bookmark important job opportunities
+- Dashboard analytics with charts and statistics
+- Responsive and clean user interface
+- Local storage persistence using custom hooks
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Smart-Job-Tracker-Dashboard
+## Tech Stack
+
+- React
+- React Router DOM
+- Context API
+- React Hook Form
+- Yup Validation
+- Axios
+- Recharts
+- React Toastify
+- Framer Motion
+- Date-fns
+- React Icons
+
+## Pages Included
+
+- Dashboard
+- Applications List
+- Add New Application
+- Edit Application
+- Analytics
+
+## Learning Outcomes
+
+This project demonstrates strong understanding of:
+
+- Component architecture
+- State management using Context API
+- Custom Hooks
+- Form handling and validation
+- Routing with React Router
+- API integration
+- Performance optimization using debouncing
+- Data visualization using charts
+
+## Goal
+
+To build a real-world, scalable React application that reflects production-level frontend development and solves an actual user problem.
